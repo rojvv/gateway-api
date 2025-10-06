@@ -6,11 +6,5 @@
     "./types": "./types.ts",
     "./methods": "./methods.ts",
     "./client": "./client.ts"
-  },
-  "tasks": {
-    "dev": "deno run --watch main.ts"
-  },
-  "fmt": {
-    "exclude": ["node/dist"]
   }
 }
