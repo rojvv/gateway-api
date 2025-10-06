@@ -1,0 +1,19 @@
+{
+  "name": "@roj/gateway-api",
+  "version": "0.0.0",
+  "license": "MIT",
+  "exports": {
+    "./types": "./types.ts",
+    "./methods": "./methods.ts",
+    ".": "./client.ts"
+  },
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  },
+  "fmt": {
+    "exclude": ["node/dist"]
+  }
+}
