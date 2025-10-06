@@ -41,6 +41,6 @@ jobs:
           path: ~/.cache/deno/deps
           key: ${{ runner.os }}-${{ hashFiles('0_deps.ts') }}
 
-      - run: deno check mod.ts
+      - run: deno check client.ts
 
       - run: deno publish --dry-run

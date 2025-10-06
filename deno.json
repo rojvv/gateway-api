@@ -5,7 +5,7 @@
   "exports": {
     "./types": "./types.ts",
     "./methods": "./methods.ts",
-    ".": "./client.ts"
+    "./client": "./client.ts"
   },
   "tasks": {
     "dev": "deno run --watch main.ts"
